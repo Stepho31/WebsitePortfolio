@@ -1,8 +1,8 @@
 import project1_img from '../assets/project_1.jpg'
 import project2_img from '../assets/project_2.jpg'
 import project3_img from '../assets/project_3.jpg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
+import project4_img from '../assets/project_4.jpg'
+import project5_img from '../assets/project_5.jpg'
 import project6_img from '../assets/project_6.svg'
 
 const mywork_data = [
@@ -17,11 +17,11 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"Storks App",
+        w_name:"Portfolio Website",
         w_img:project1_img,
-        github_link: 'https://github.com/Stepho31/Storks',
-        title: 'Storks (Mobile Dating Application)',
-        tech_stack: 'SwiftUI, Firebase'
+        github_link: 'https://github.com/Stepho31/WebsitePortfolio',
+        title: 'Portfolio Website',
+        tech_stack: 'Javarscript, React, and React Native'
     },
     {
         w_no:3,
@@ -33,12 +33,18 @@ const mywork_data = [
     },
     {
         w_no:4,
-        w_name:"Web design",
-        w_img:project4_img
+         w_name:"Storks App",
+        w_img:project4_img,
+        github_link: 'https://github.com/Stepho31/Storks',
+        title: 'Storks (Mobile Dating Application)',
+        tech_stack: 'SwiftUI, Firebase'
     },
     {
         w_no:5,
-        w_name:"Web design",
+        w_name:"2oDoo",
+        github_link: 'https://github.com/Stepho31/2woDoo.git',
+        title: '2oDoo (to-do list application)',
+        tech_stack: 'SwiftUI',
         w_img:project5_img
     },
     {
